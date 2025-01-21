@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #000080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header h1 span {
+    color: red;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0em;
+    padding: 0em;
+    text-decoration: none;
+
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #3652B0;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 black;
+    max-width: calc(100% - 35%);
+    width: 100%;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+section p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+section strong {
+    color: #0000EE;
+    cursor: pointer;
+}
+
+
+a {
+    color: #0000EE;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div p a {
+    display: inline-block;
+    background-color: #000080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 black;
+}
+
+div p a:hover {
+    background-color: #0000EE;
+}
+
+footer {
+    background-color: #000080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    margin: 5px 0;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#home img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 30%;
+    height: auto;
+    margin-right: 10px;
+    border: none;
+}
+
+#overzicht img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15em;
+    height: 10em;
+
+}
+
+#overzicht section {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+#overzicht {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0em;
+    padding: 0em;
+
+}
+
+#over section {
+    margin-bottom: 30px;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#over section h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+section:hover {
+    transform: scale(1.02);
+
+}
+
+#over main {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+#overzicht img {
+    transition: background-color 350ms ease, transform 0.3s ease;
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+#overzicht section:hover {
+    background-color: rgb(41, 62, 183);
+    transform: scale(1.05);
+}
+
+#overzicht main img {
+    animation: fadeIn 2s ease-in;
+}
+
+a:hover {
+    background-color: #000999;
+}
+
+
+
+a {
+    background-color: #000080;
+    padding: 1em;
+    text-decoration: none;
+    transition: 350ms ease;
+}
+
+h1 {
+    padding: 1em;
+}
+
+li a {
+    margin: 2em;
+}
+
+li {
+    padding: 2em;
+}
+
+#overzicht img{
+padding: 2em;
+}
+
+#overzicht main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+#overzicht section {
+    width: 80%; 
+    max-width: 800px; 
+}
+
+
+#overzicht main>p
+{
+    background-color: #000080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 black;
+}
+
+#overzicht h2{
+    background-color: #000080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 3px 3px 0 black;
+}
+#over img{
+padding-right: 13em;
+
+}
